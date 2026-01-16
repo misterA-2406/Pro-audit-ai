@@ -276,6 +276,8 @@ const SettingsModal = ({ isOpen, onClose, pageSpeedKey, setPageSpeedKey, model, 
                         <select value={model} onChange={e => setModel(e.target.value)} className="w-full p-4 md:p-5 bg-slate-50 dark:bg-slate-700 dark:text-white rounded-2xl outline-none border-2 border-transparent focus:border-blue-500 transition-all font-bold text-base md:text-sm">
                             <option value="gemini-3-pro-preview">Gemini 3.0 Pro (Dossier Depth)</option>
                             <option value="gemini-3-flash-preview">Gemini 3.0 Flash (Speed)</option>
+                            <option value="gemini-2.5-pro-preview">Gemini 2.5 Pro (Balanced)</option>
+                            <option value="gemini-2.5-flash-preview">Gemini 2.5 Flash (Efficient)</option>
                         </select>
                     </div>
                     <div>
